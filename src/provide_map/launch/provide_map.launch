@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="map_server" type="map_server" name="map" args="$(find provide_map)/my_map.yaml" output="screen">
+        <rosparam></rosparam>
+    </node>
+    
+</launch>
